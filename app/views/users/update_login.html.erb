@@ -1,0 +1,25 @@
+<h1>Editing user</h1>
+
+<%= simple_form_for(@user, :url => { :action => "update_login_password" } ) do |f| %>
+  <%= f.error_notification %>
+  <%if @user.errors %>
+    <% @user.errors.full_messages.each do |e| %>
+      <%= e.to_s%>
+      <br>
+    <%end%>
+  <% end %>
+  <div class="field">
+    <%= f.input :email, value: @user.email %>
+  </div>
+  <div class="field">
+    <%= f.label :password, "*Password" %>
+    <%= f.password_field :password, :autocomplete => "off"  %>
+  </div>
+  <div class="field">
+    <%= f.label :password_confirmation, "*Password confirmation" %>
+    <%= f.password_field :password_confirmation %>
+  </div>
+  <div class="action_container">
+    <%= f.submit %>
+  </div>
+<% end %>
