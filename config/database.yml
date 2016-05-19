@@ -1,6 +1,6 @@
 # 2015-07-23 RICHARD:
-# THIS IS A SAMPLE FOR database_sample.yml which is git-ignored.
-# REMEMBER TO COPY THIS FILE TO database_sample.yml - you won't have to change it.
+# THIS IS A SAMPLE FOR database.yml which is git-ignored.
+# REMEMBER TO COPY THIS FILE TO database.yml - you won't have to change it.
 #
 #   gem install sqlite3
 #
