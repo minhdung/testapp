@@ -23,3 +23,15 @@ production:
 
   google_key: "1016855153174-ff17s2dskncna7lucq2d8sdralvjv800.apps.googleusercontent.com"
   google_secret: "nQG4BVnq3Ioy0KpaWsrELujF"
+test:
+  facebook_key: "573941416036584"
+  facebook_secret: "b4ce96813dba8cd11eef63461ce6227c"
+
+  twitter_key: "0gfeBHO0qyMkqa2ac46HeIvze"
+  twitter_secret: "8B6q2UOdr5vZuRrwBNo8jNoHShJNjFxwkECc6klmfSXjl0W88i"
+
+  instagram_id: "556479f2668a455a9f1858b0db3f6d27"
+  instagram_secret: "066c5c6c86aa4f3c9d7654ffed9d2686"
+
+  google_key: "1016855153174-ff17s2dskncna7lucq2d8sdralvjv800.apps.googleusercontent.com"
+  google_secret: "nQG4BVnq3Ioy0KpaWsrELujF"
